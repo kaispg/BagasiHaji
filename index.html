@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>HajjEasy - Perkhidmatan Bagasi Haji & Umrah</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <h1>HajjEasy</h1>
+      <p>Perkhidmatan Bagasi Haji & Umrah</p>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <h2>Hantar Bagasi Anda dari Mekah & Madinah terus ke Rumah Anda</h2>
+      <p>Elakkan caj bagasi berlebihan. Kami hantar barang anda terus ke pintu rumah dalam 10–14 hari.</p>
+      <a href="#daftar" class="btn" id="whatsappBtn">WhatsApp Sekarang</a>
+      <a href="https://tracking.my" target="_blank" class="btn btn-track">🔍 Track Bagasi Anda</a>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="perkhidmatan" class="section">
+    <div class="container">
+      <h2>Perkhidmatan Kami</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>🚚 Penghantaran Selamat</h3>
+          <p>Dari hotel di Mekah & Madinah terus ke rumah anda di Malaysia.</p>
+        </div>
+        <div class="card">
+          <h3>📦 Pembungkusan Percuma</h3>
+          <p>Kotak berkualiti pada harga berpatutan. Kotak percuma jika >15kg.</p>
+        </div>
+        <div class="card">
+          <h3>🛡️ Insuran Bagasi</h3>
+          <p>Perlindungan percuma sehingga RM1,000 setiap kotak.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Items -->
+  <section class="section light">
+    <div class="container">
+      <h2>Barang yang Boleh & Tidak Boleh Dihantar</h2>
+      <div class="items">
+        <div class="item">
+          <h3>✅ Boleh Dihantar</h3>
+          <ul>
+            <li>Pakaian terpakai & kain ihram</li>
+            <li>Cenderahati: Al-Quran, minyak wangi, replika Kaabah</li>
+            <li>Makanan kering: buah kering, kekacang, coklat</li>
+            <li>Abaya, jubah, sejadah, minyak zaitun</li>
+          </ul>
+        </div>
+        <div class="item">
+          <h3>❌ Tidak Boleh Dihantar</h3>
+          <ul>
+            <li>Air Zamzam</li>
+            <li>Wang tunai, emas, intan berlian</li>
+            <li>Kurma basah</li>
+            <li>Bahan mudah terbakar (DGR)</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing -->
+  <section id="harga" class="section">
+    <div class="container">
+      <h2>Kadar Pengeposan</h2>
+      <table class="pricing">
+        <tr>
+          <th>Destinasi</th>
+          <th>Kadar per KG</th>
+        </tr>
+        <tr>
+          <td>Semenanjung Malaysia</td>
+          <td>SAR 18 / kg</td>
+        </tr>
+        <tr>
+          <td>Sabah & Sarawak</td>
+          <td>SAR 23 / kg</td>
+        </tr>
+      </table>
+      <p><em>*Termasuk penghantaran ke pintu rumah</em></p>
+    </div>
+  </section>
+
+  <!-- Workflow -->
+  <section class="section light">
+    <div class="container">
+      <h2>Alur Kerja</h2>
+      <ol class="workflow">
+        <li>Susun barang dalam kotak</li>
+        <li>Dibungkus & diikat dengan 'nylon strapping'</li>
+        <li>Penimbangan digital (penimbang dikalibrasi)</li>
+        <li>Daftar dalam sistem</li>
+        <li>Resit digital dihantar (WhatsApp/email)</li>
+        <li>Tracking secara langsung di <a href="https://tracking.my" target="_blank">tracking.my</a></li>
+        <li>Penghantaran ke Malaysia</li>
+        <li>Serah ke pintu rumah</li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="daftar" class="section">
+    <div class="container">
+      <h2>Hubungi Kami</h2>
+      <p>Untuk pendaftaran atau pertanyaan, sila hubungi kami melalui WhatsApp:</p>
+      <a href="https://wa.me/60197979546" target="_blank" class="btn wa" id="whatsappFooterBtn">📱 WhatsApp Sekarang</a>
+      <p class="contact-info">
+        📧 rural.sepinang@gmail.com<br>
+        🏢 <strong>Rural Sepinang Enterprise</strong>
+      </p>
+    </div>
+  </section>
+
+  <!-- Inquiry Form -->
+  <section class="section">
+    <div class="container">
+      <h2>Borang Pertanyaan</h2>
+      <p>Sila isi maklumat di bawah untuk sebarang pertanyaan. Kami akan balas secepat mungkin.</p>
+      <form id="inquiryForm">
+        <div class="form-group">
+          <label for="name">Nama Penuh</label>
+          <input type="text" id="name" name="name" required />
+        </div>
+        <div class="form-group">
+          <label for="email">Emel</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+        <div class="form-group">
+          <label for="phone">No Telefon</label>
+          <input type="tel" id="phone" name="phone" />
+        </div>
+        <div class="form-group">
+          <label for="message">Mesej</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+        </div>
+        <button type="submit" class="btn">Hantar Pertanyaan</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Rural Sepinang Enterprise. Dikendalikan oleh HajjEasy.</p>
+      <p>“Melayani Tetamu Allah dengan Hati, Amanah, dan Tanggungjawab”</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
