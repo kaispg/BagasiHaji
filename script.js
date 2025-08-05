@@ -56,7 +56,7 @@ document.addEventListener("DOMContentLoaded", function () {
         popup.style.opacity = "0";
         setTimeout(() => {
           popup.remove();
-          window.open("https://wa.me/60197979546", "_blank");
+          window.open("https://wa.me/60132220278", "_blank");
         }, 300);
       }, 2000);
     });
